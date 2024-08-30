@@ -1,0 +1,88 @@
+@import url('./base.css');
+
+#topnav {
+    align-items: center;
+    height: var(--nav-h);
+    border-bottom: 1px solid var(--nav-separator);
+    background-color: var(--bulma-body-background-color);
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+main {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    height: 100%;
+    align-items: center;
+}
+
+.navbar-item {
+    border-radius: var(--bulma-radius);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-item:hover {
+    background-color: hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), .2)
+}
+
+.navbar-item:hover :is(svg, i) {
+    color: var(--bulma-primary);
+}
+
+.navbar-end {
+    gap: 8px;
+    align-items: center;
+}
+
+.navbar-menu.is-active {
+    border-radius: 12px;
+    width: fit-content;
+    padding: 16px;
+    margin-left: auto;
+    margin-top: -12px;
+    border: 1px solid var(--nav-separator);
+    right: 0;
+}
+
+.image img {
+    object-fit: cover;
+    box-shadow: 6px 8px 0 var(--bulma-primary);
+    transition: 200ms;
+}
+
+.image img:hover {
+    box-shadow: 8px 12px 0 var(--bulma-primary);
+}
+
+section:nth-child(even) {
+    background-color: var(--bulma-background);
+}
+
+.c-box {
+    box-shadow: 4px 6px 0 var(--bulma-primary);
+    border-radius: 0;
+    transition: 200ms;
+}
+
+.c-box ul {
+    list-style-type: inherit;
+    color: var(--bulma-white);
+    text-align: left;
+}
+
+.c-box:hover {
+    box-shadow: 6px 8px 0 var(--bulma-primary);
+    border-radius: 0;
+}
+
+.c-text {
+    font-size: .85em;
+    text-align: justify;
+    color: var(--bulma-danger);
+}

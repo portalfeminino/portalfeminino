@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Start Deps -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--End Deps-->
+    <link rel="stylesheet" href="./css/index.css">
+    <script defer src="./js/bulma.js"></script>
+    <title>Portal Feminino</title>
+</head>
+
+<body data-theme="dark">
+    <header id="#top"></header>
+    <nav id="topnav" class="navbar px-5" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#top">
+                <i class="fa fa-venus is-size-3"></i>
+                <strong>Portal Feminino</strong>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="topnav-content">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="topnav-content" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#sobre">
+                    <i class="fa fa-circle-info"></i>
+                    Sobre o Projeto
+                </a>
+                <a class="navbar-item" href="#video">
+                    <i class="fa fa-video"></i>
+                    Documentário
+                </a>
+                <a class="navbar-item" href="#lei">
+                    <i class="fa fa-gavel"></i>
+                    A Lei
+                </a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="sobre">
+            <div class="container is-max-widescreen py-6">
+                <div class="columns p-4 is-5">
+                    <div class="column">
+                        <figure class="image is-3by4">
+                            <img src="./img/maria-da-penha.jpeg" alt="Maria da Penha">
+                        </figure>
+                    </div>
+                    <div class="column is-two-thirds is-flex is-align-items-center">
+                        <div>
+                            <h1 class="title is-1 mb-5">Portal Feminino</h1>
+                            <p class="subtitle is-5">Este site é dedicado a informar e esclarecer sobre a Lei Maria da
+                                Penha, oferecendo recursos
+                                e orientações sobre proteção e direitos das mulheres. Aqui, você encontrará informações
+                                essenciais para entender e aplicar essa importante legislação.</p>
+                            <div class="buttons are-medium">
+                                <a href="#video" class="button">
+                                    <span class="icon">
+                                        <i class="fa fa-video"></i>
+                                    </span>
+                                    <span>Documentário</span>
+                                </a>
+                                <a href="#lei" class="button is-primary">
+                                    <span class="icon">
+                                        <i class="fa fa-gavel"></i>
+                                    </span>
+                                    <span>A Lei</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="video">
+            <div class="container is-max-widescreen py-6 px-4 has-text-centered">
+                <h1 class="title mb-2">Documentário</h1>
+                <p class="subtitle is-6">Entenda toda a história por trás da Lei Maria da Penha.</p>
+                <div class="video">
+                    <figure class="image is-16by9">
+                        <iframe
+                            src="https://player.vimeo.com/video/1004328531?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                            title="Lei Maria da Penha"></iframe>
+                        <script src="https://player.vimeo.com/api/player.js"></script>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="lei">
+            <div class="container is-max-widescreen py-6 px-4 has-text-centered">
+                <h1 class="title mb-2">Lei Maria da Penha</h1>
+                <p class="subtitle is-6">Você conhece a essa lei tão importante? Sabe que se estiver passando por alguma
+                    situação de agressão você
+                    pode e deve denunciar? Veja abaixo alguns detalhes sobre ela:</p>
+                <div class="content has-text-justified">
+                    <div class="box has-background is-shadowless">
+                        <p>
+                            <strong>Art. 1º</strong> Esta Lei cria mecanismos para coibir e prevenir a violência
+                            doméstica e
+                            familiar contra
+                            a
+                            mulher, nos termos do <strong>§ 8º</strong> do <strong>art. 226</strong> da Constituição
+                            Federal, da Convenção sobre a
+                            Eliminação
+                            de
+                            Todas as Formas de Violência contra a Mulher, da Convenção Interamericana para Prevenir,
+                            Punir e
+                            Erradicar a Violência contra a Mulher e de outros tratados internacionais ratificados pela
+                            República
+                            Federativa do Brasil; dispõe sobre a criação dos Juizados de Violência Doméstica e Familiar
+                            contra a
+                            Mulher; e estabelece medidas de assistência e proteção às mulheres em situação de violência
+                            doméstica e familiar.
+                        </p>
+                    </div>
+                    <div class="box has-background is-shadowless">
+                        <p>
+                            <strong>Art. 2º</strong> Toda mulher, independentemente de classe, raça, etnia, orientação
+                            sexual, renda,
+                            cultura,
+                            nível educacional, idade e religião, goza dos direitos fundamentais inerentes à pessoa
+                            humana,
+                            sendo-lhe asseguradas as oportunidades e facilidades para viver sem violência, preservar sua
+                            saúde
+                            física e mental e seu aperfeiçoamento moral, intelectual e social.
+                        </p>
+                    </div>
+                    <div class="box has-background is-shadowless">
+                        <p>
+                            <strong>Art. 3º</strong> Serão asseguradas às mulheres as condições para o exercício efetivo
+                            dos direitos à
+                            vida,
+                            à
+                            segurança, à saúde, à alimentação, à educação, à cultura, à moradia, ao acesso à justiça, ao
+                            esporte, ao lazer, ao trabalho, à cidadania, à liberdade, à dignidade, ao respeito e à
+                            convivência
+                            familiar e comunitária.
+                        </p>
+                    </div>
+                    <div class="box has-background is-shadowless">
+                        <p><strong>§ 1º</strong> O poder público desenvolverá políticas que visem garantir os
+                            direitos humanos das
+                            mulheres
+                            no
+                            âmbito das relações domésticas e familiares no sentido de resguardá-las de toda forma de
+                            negligência, discriminação, exploração, violência, crueldade e opressão.
+                        </p>
+                    </div>
+                    <div class="box has-background is-shadowless">
+                        <p><strong>§ 2º</strong> Cabe à família, à sociedade e ao poder público criar as condições
+                            necessárias para
+                            o
+                            efetivo
+                            exercício dos direitos enunciados no caput.
+                        </p>
+                    </div>
+                    <div class="box has-background is-shadowless">
+                        <p>
+                            <strong>Art. 4º</strong> Na interpretação desta Lei, serão considerados os fins sociais a
+                            que ela se destina
+                            e,
+                            especialmente, as condições peculiares das mulheres em situação de violência doméstica e
+                            familiar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container is-max-widescreen py-6 px-4 has-text-centered">
+                <h1 class="title mb-2">Violência</h1>
+                <p class="subtitle is-6">Existem alguns tipos de violência que causam grande sofrimento e interferem
+                    diariamente na vida de muitas mulheres, cinco deles são descritos na Lei Maria da Penha. A violência
+                    de gênero acontece pelo simples fato da pessoa violentada ser mulher. Você sabe identificar se já
+                    passou ou está passando por uma situação de violência? </p>
+                <div class="columns">
+                    <div class="column">
+                        <div class="box c-box">
+                            <h1 class="title mb-2 is-4">Violência Física</h1>
+                            <p class="subtitle is-6 mb-4">São ações que causam danos à integridade física da mulher.</p>
+                            <ul class="px-4 py-1 mb-4">
+                                <li>Empurrões</li>
+                                <li>Chutes</li>
+                                <li>Tapas</li>
+                                <li>Socos</li>
+                                <li>Amarrar</li>
+                                <li>Morder</li>
+                                <li>Bater</li>
+                            </ul>
+                            <p class="c-text">
+                                <i class="fa fa-warning mr-1"></i>
+                                Em 2019
+                                foram registrados 263.067 casos de lesão corporal dolosa.
+                            </p>
+                        </div>
+                        <div class="box c-box">
+                            <h1 class="title mb-2 is-4">Violência Sexual</h1>
+                            <p class="subtitle is-6">Não é só estupro! É uma ação que obriga uma pessoa a manter
+                                qualquer forma de
+                                contato ou a participar de
+                                relações sexuais com o agressor ou terceiros, por meio de qualquer mecanismo que anule
+                                ou limite a vontade pessoal. Assédio é qualquer atitude que aconteça sem consentimento.
+
+                            </p>
+                            <ul class="px-4 py-1 mb-4">
+                                <li>Exigir práticas que a mulher não gosta</li>
+                                <li>Se negar a usar preservativo</li>
+                                <li>Negar o direito a métodos contraceptivos</li>
+                                <li>Forçar o ato sexual mesmo se a mulher não quiser</li>
+                            </ul>
+                            <p class="c-text">
+                                <i class="fa fa-warning mr-1"></i>
+                                Em 2019 foram registrados 180 estupros por dia. São 4 meninas de até 13 anos estupradas
+                                por hora.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box c-box">
+                            <h1 class="title mb-2 is-4">Violência Psicológica</h1>
+                            <p class="subtitle is-6">O agressor visa degradar ou controlar as ações,
+                                comportamentos, crenças e decisões de da mulher, prejudicando a sua saúde psicológica.
+                            </p>
+                            <ul class="px-4 py-1">
+                                <li>Diminuir, fazer a pessoa sentir-se mal consigo mesma, xingar, fazer a pessoa pensar
+                                    que está louca, provocar confusão mental, fazer a pessoa se sentir culpada</li>
+                                <li>Humilhar (desqualificar, criticar continuamente, desvalorizar, ironizar
+                                    publicamente, desconsiderar a opinião da pessoa)</li>
+                                <li>Fazer chantagens com os filhos</li>
+                            </ul>
+                        </div>
+                        <div class="box c-box">
+                            <h1 class="title mb-2 is-4">Violência Patrimonial</h1>
+                            <p class="subtitle is-6">Ação que implica dano, perda, subtração, destruição ou
+                                retenção de objetos, documentos pessoais, bens e valores.</p>
+                            <ul class="px-4 py-1">
+                                <li>Controlar o dinheiro e/ou cartão de crédito</li>
+                                <li>Não deixar trabalhar</li>
+                                <li>Ocultar bens</li>
+                                <li>Pegar aposentadoria</li>
+                            </ul>
+                        </div>
+                        <div class="box c-box">
+                            <h1 class="title mb-2 is-4">Violência Moral</h1>
+                            <p class="subtitle is-6">Caluniar, difamar ou injuriar a honra ou a reputação da pessoa.</p>
+                            <ul class="px-4 py-1">
+                                <li>Acusar traição</li>
+                                <li>Diminuir a pessoa na frente de outras</li>
+                                <li>Não permitir que a pessoa use determinada roupa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container is-max-widescreen py-6 px-4 has-text-centered">
+                <p>Caso você identifique ter vivenciado alguma dessas situações, saiba você não está sozinha e que
+                    existem leis e meios que a protegem. Denunciar é a melhor opção o seu agressor não pode ficar
+                    impune! Denuncie. Instituições como Delegacias especializadas, Casas da Mulher Brasileira (CMBs) e
+                    canais de denúncias como o Ligue 180 – disponibilizado pelo Ministério da Mulher, da Família e dos
+                    Direitos Humanos (MMFDH) estão disponíveis e especializadas para lhe ajudar.</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

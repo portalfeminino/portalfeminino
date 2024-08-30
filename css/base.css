@@ -1,0 +1,11 @@
+@import url('./bulma.css');
+
+:root {
+    --nav-h: 84px;
+    --nav-separator: #334;
+}
+
+* {
+    font-family: "Poppins";
+    scroll-padding-top: var(--nav-h);
+}
