@@ -11,6 +11,10 @@
     left: 0;
 }
 
+.container {
+    overflow: hidden;
+}
+
 main {
     scroll-behavior: smooth;
 }
